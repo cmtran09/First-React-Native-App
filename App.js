@@ -3,9 +3,15 @@ import React from 'react';
 import { StyleSheet, Text, View } from 'react-native';
 
 export default function App() {
+  console.log("hio")
+  
+  let x = 1234
+  console.log(x)
+
+
   return (
     <View style={styles.container}>
-      <Text>Open up App.js to start working on your app!</Text>
+      <Text>Open up App.js to start working on your appy!</Text>
       <StatusBar style="auto" />
     </View>
   );
